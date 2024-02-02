@@ -11,7 +11,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-	title: "Fashion Frontend - Latest trending clothes and accessories",
+	title: "urbn. | Latest trending clothes and accessories",
 	description:
 		"Get a look at the latest trendy catalogue of eye-catching fashion.",
 };
