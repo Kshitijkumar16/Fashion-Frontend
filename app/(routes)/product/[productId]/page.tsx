@@ -17,8 +17,6 @@ const ProductPage = async ({ params }: ProductPageProps) => {
 		categoryId: product?.category?.id,
 	});
 
-	// console.log("ffff",suggestedProducts[0]);
-
 	return (
 		<div className='bg-white'>
 			<Container>
