@@ -4,6 +4,7 @@ import Container from "@/components/ui/container";
 import useCart from "@/hooks/use-cart";
 import CartItem from "./components/CartItem";
 import Summary from "./components/Summary";
+import { Suspense } from "react";
 
 const CartPage = () => {
 	const cart = useCart();
@@ -27,7 +28,9 @@ const CartPage = () => {
 								))}
 							</ul>
 						</div>
-						<Summary />
+						<Suspense fallback={<div>Loading...</div>}>
+							<Summary />
+						</Suspense>
 					</div>
 				</div>
 			</Container>
