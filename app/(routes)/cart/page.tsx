@@ -28,7 +28,7 @@ const CartPage = () => {
 								))}
 							</ul>
 						</div>
-						<Suspense fallback={<div>Loading...</div>}>
+						<Suspense fallback={<div>Just a sec...</div>}>
 							<Summary />
 						</Suspense>
 					</div>
